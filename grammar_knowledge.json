@@ -74,5 +74,21 @@
   "cuando cuanto": {
     "explanation": "西语询问时间用cuando,有重音符号的是when？没有的是连词when。问次数用cuanto，有重音符号，相当于how much/many",
     "count": 0
+  },
+  "环境问题": {
+    "explanation": "Anaconda核心目录在D:\\anaconda3，如果以后再报D:Python的错，直接去检查系统环境变量、PowerShell启动脚本和Conda.psm1",
+    "count": 0
+  },
+  "VS Code配置": {
+    "explanation": "每次打开VS，确认右下角状态栏是base(3.13.9)【这个是系统指定的以Anaconda为基础环境的python解释器】\n或者Coding_basic【这个是我的虚拟环境】\n如果在设置里写死了路径：\"python.default Interpreter Path\":\"D:\\\\anaconda3\\\\python.exe\"就绝对不会乱",
+    "count": 0
+  },
+  "新项目固定操作": {
+    "explanation": "以后重新写一个项目，就在D:Coding_basic里新建一个子文件夹，用VS打开它，按Ct+Sh+P创建一个虚拟环境，然后再用.gitignore挡住环境文件夹，再去Git里Commit和publish",
+    "count": 0
+  },
+  "Git同步": {
+    "explanation": "以后代码改动后，在VS Code左侧源代码管理面板写说明->点Commit->点Sync Changes(或带圆圈箭头的同步图标），千万别点那个垃圾桶图标！！！",
+    "count": 0
   }
 }
